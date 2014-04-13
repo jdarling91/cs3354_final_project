@@ -1,0 +1,998 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>se_proj UML Documentation</title>
+<meta name="generator" content="IBM Rational Model Publisher">
+<meta name="description" content="Content for SchedulingSystem">
+<link rel="stylesheet" type="text/css" href="WebPublish.css">
+</head>
+<body>
+<table class="NavigationBar">
+<tr>
+<td>
+<table class="NavBarLeft">
+<tr>
+<td class="NavBarMainLink"><a target="_top" href="../index.html">Overview</a></td><td class="NavBarMainLink"><a href="_.w.tXW4.r.a.lE.eO8.yNI.aJEI.s.q.g-top-summary.html">Top</a></td><td class="NavBarMainLink"><a href="_.w.tXW4.r.a.lE.eO8.yNI.aJEI.s.q.g-top-summary.html">Package</a></td><td class="NavBarMainHighlight">Element</td>
+</tr>
+</table>
+</td><td class="NavBarRight">se_proj UML Documentation</td>
+</tr>
+</table>
+<table>
+<tr class="NavBarBookMarks">
+<td class="BookMarkSections"><span class="BookMarkElements">Summary:</span><span class="BookMarkElements"><a href="#attributeSummary" title="Attributes">Attributes</a></span><span class="BookMarkElements"><a href="#operationSummary" title="Operations">Operations</a></span><span class="BookMarkElements"><a href="#specificationsSummary" title="Specifications">Specifications</a></span><span class="BookMarkElements"><a href="#propertiesTable" title="Properties">Properties</a></span></td><td class="BookMarkSections"><span class="BookMarkElements">Detail:</span><span class="BookMarkElements"><a href="#attributeDetail" title="Attributes">Attributes</a></span><span class="BookMarkElements"><a href="#operationDetail" title="Operations">Operations</a></span></td>
+</tr>
+</table>
+<hr>
+<span class="PackageFullyQualifiedName"></span>
+<br>
+<span class="ElementTitle">Class SchedulingSystem</span>
+<p></p>
+<table class="SummaryTable" border="1">
+<tr>
+<td class="SummaryTitle" colspan="3"><a name="attributeSummary">Attributes</a></td>
+</tr>
+<tr>
+<td class="packagedElementType">Event </td><td><a title="se_proj::SchedulingSystem::events" href="#_E3E.i8L6.wE.eO3.l-.w6.i.pAO3Q"><img border="0" src="../images/319098312_icon.png" alt="events"></a>&nbsp;<a title="se_proj::SchedulingSystem::events" href="#_E3E.i8L6.wE.eO3.l-.w6.i.pAO3Q">events</a></td><td></td>
+</tr>
+<tr>
+<td class="packagedElementType">Event </td><td><a title="se_proj::SchedulingSystem::event" href="#_.k-D4EL6.xE.eO3.l-.w6.i.pAO3Q"><img border="0" src="../images/319098312_icon.png" alt="event"></a>&nbsp;<a title="se_proj::SchedulingSystem::event" href="#_.k-D4EL6.xE.eO3.l-.w6.i.pAO3Q">event</a></td><td></td>
+</tr>
+</table>
+<p></p>
+<table class="SummaryTable" border="1">
+<tr>
+<td class="SummaryTitle" colspan="3"><a name="operationSummary">Operations</a></td>
+</tr>
+<tr>
+<td class="packagedElementType"> </td><td><a title="se_proj::SchedulingSystem::queryDb" href="#_T.b.e.n.kL6.wE.eO3.l-.w6.i.pAO3Q"><img border="0" src="../images/-234550604_icon.png" alt="queryDb"></a>&nbsp;<a title="se_proj::SchedulingSystem::queryDb" href="#_T.b.e.n.kL6.wE.eO3.l-.w6.i.pAO3Q">queryDb</a></td><td></td>
+</tr>
+<tr>
+<td class="packagedElementType"> </td><td><a title="se_proj::SchedulingSystem::createEvent" href="#_A2.hJQMG-E.eO.o.r.c.v-.wB0.tFA"><img border="0" src="../images/-234550604_icon.png" alt="createEvent"></a>&nbsp;<a title="se_proj::SchedulingSystem::createEvent" href="#_A2.hJQMG-E.eO.o.r.c.v-.wB0.tFA">createEvent</a></td><td></td>
+</tr>
+<tr>
+<td class="packagedElementType"> </td><td><a title="se_proj::SchedulingSystem::notifyGuests" href="#_NC.q9EMG-E.eO.o.r.c.v-.wB0.tFA"><img border="0" src="../images/-234550604_icon.png" alt="notifyGuests"></a>&nbsp;<a title="se_proj::SchedulingSystem::notifyGuests" href="#_NC.q9EMG-E.eO.o.r.c.v-.wB0.tFA">notifyGuests</a></td><td></td>
+</tr>
+<tr>
+<td class="packagedElementType"> </td><td><a title="se_proj::SchedulingSystem::updateEvent" href="#_P.p.cLAMG-E.eO.o.r.c.v-.wB0.tFA"><img border="0" src="../images/-234550604_icon.png" alt="updateEvent"></a>&nbsp;<a title="se_proj::SchedulingSystem::updateEvent" href="#_P.p.cLAMG-E.eO.o.r.c.v-.wB0.tFA">updateEvent</a></td><td></td>
+</tr>
+<tr>
+<td class="packagedElementType"> </td><td><a title="se_proj::SchedulingSystem::removeEvent" href="#_S9.l.cUMG-E.eO.o.r.c.v-.wB0.tFA"><img border="0" src="../images/-234550604_icon.png" alt="removeEvent"></a>&nbsp;<a title="se_proj::SchedulingSystem::removeEvent" href="#_S9.l.cUMG-E.eO.o.r.c.v-.wB0.tFA">removeEvent</a></td><td></td>
+</tr>
+</table>
+<p xmlns:publish="http://www.ibm.com/Rational/XTools/Publish"></p>
+<table xmlns:publish="http://www.ibm.com/Rational/XTools/Publish" style="width: 100%; height: 40px;" border="1" cellpadding="4" class="PropertiesTable">
+<tr>
+<td class="SummaryTitle" colspan="2"><a name="specificationsSummary">Specifications</a></td>
+</tr>
+<tr>
+<td class="PropertyName" style="width: 50%;"><b>Specification</b></td><td class="PropertyName" style="width: 50%;"><b>Trace Relationship</b></td>
+</tr>
+<tr>
+<td class="PropertyName" style="width: 50%;"><a title="se_proj::Staff Delete Event" href="_.i_C4UMG_E.eO.o.r.c.v-.wB0.tFA-content.html"><img border="0" src="../images/1476725220_icon.png" alt="Staff Delete Event"></a>&nbsp;<a title="se_proj::Staff Delete Event" href="_.i_C4UMG_E.eO.o.r.c.v-.wB0.tFA-content.html">Staff Delete Event</a></td><td class="PropertyValue" style="width: 50%;"><img border="0" src="../images/-1392178033_icon.png" alt="schedulingSystem">&nbsp;schedulingSystem</td>
+</tr>
+<tr>
+<td class="PropertyName" style="width: 50%;"><a title="se_proj::Staff Schedule Event" href="_.mL.i7.cMG9E.eO.o.r.c.v-.wB0.tFA-content.html"><img border="0" src="../images/1476725220_icon.png" alt="Staff Schedule Event"></a>&nbsp;<a title="se_proj::Staff Schedule Event" href="_.mL.i7.cMG9E.eO.o.r.c.v-.wB0.tFA-content.html">Staff Schedule Event</a></td><td class="PropertyValue" style="width: 50%;"><img border="0" src="../images/-1392178033_icon.png" alt="schedulingSystem">&nbsp;schedulingSystem</td>
+</tr>
+<tr>
+<td class="PropertyName" style="width: 50%;"><a title="se_proj::Staff Update Event" href="_NYN.dUMHAE.eO.o.r.c.v-.wB0.tFA-content.html"><img border="0" src="../images/1476725220_icon.png" alt="Staff Update Event"></a>&nbsp;<a title="se_proj::Staff Update Event" href="_NYN.dUMHAE.eO.o.r.c.v-.wB0.tFA-content.html">Staff Update Event</a></td><td class="PropertyValue" style="width: 50%;"><img border="0" src="../images/-1392178033_icon.png" alt="schedulingSystem">&nbsp;schedulingSystem</td>
+</tr>
+</table>
+<br>
+<a name="propertiesTable">
+<p class="LargeTitle">Properties:</p>
+</a>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Classifier Behavior</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Active</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">SchedulingSystem</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_.w.tXW4.r.a.lE.eO8.yNI.aJEI.s.q.g-top-summary.html">se_proj</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owned Template Signature</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_.w.tXW4.r.a.lE.eO8.yNI.aJEI.s.q.g-top-summary.html">se_proj</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Package</b></td><td class="PropertyValue"><a href="_.w.tXW4.r.a.lE.eO8.yNI.aJEI.s.q.g-top-summary.html">se_proj</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Representation</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+<p></p>
+<table class="DetailsTable">
+<tr>
+<td class="DetailsTitle" colspan="2"><a name="attributeDetail">Attribute Details</a></td>
+</tr>
+</table>
+<span class="ListItem">
+<br>
+<img src="../images/319098312_icon.png" alt="">&nbsp;<a name="_.k-D4EL6.xE.eO3.l-.w6.i.pAO3Q">event</a></span>
+<pre>Private&nbsp;Event event</pre>
+<dl>
+<dd></dd>
+<dt>
+<a name="attributeConstraintsTable_.k-D4EL6.xE.eO3.l-.w6.i.pAO3Q"><b>Constraints:</b></a>
+</dt>
+<dt>
+<b>Properties:</b>
+</dt>
+<dd>
+<br>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Aggregation</b></td><td class="PropertyValue">None</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Association</b></td><td class="PropertyValue"><a href="_.k-A0.wL6.xE.eO3.l-.w6.i.pAO3Q-content.html">(event:Event)(schedulingSystem:SchedulingSystem)</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Association End</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Class</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Datatype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Default</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Default Value</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Composite</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Derived</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Derived Union</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Ordered</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Read Only</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Static</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Unique</b></td><td class="PropertyValue">true</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower Value</b></td><td class="PropertyValue">(1)</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Multiplicity</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">event</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Opposite</b></td><td class="PropertyValue"><a href="_ZGUD.cL6.wE.eO3.l-.w6.i.pAO3Q-content.html#_.k-IJ.gL6.xE.eO3.l-.w6.i.pAO3Q">schedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Association</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem::event</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Type</b></td><td class="PropertyValue"><a href="_ZGUD.cL6.wE.eO3.l-.w6.i.pAO3Q-content.html">Event</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper Value</b></td><td class="PropertyValue">(1)</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Private</td>
+</tr>
+</table>
+</dd>
+</dl>
+<hr>
+<span class="ListItem">
+<br>
+<img src="../images/319098312_icon.png" alt="">&nbsp;<a name="_E3E.i8L6.wE.eO3.l-.w6.i.pAO3Q">events</a></span>
+<pre>Private&nbsp;Event events</pre>
+<dl>
+<dd></dd>
+<dt>
+<a name="attributeConstraintsTable_E3E.i8L6.wE.eO3.l-.w6.i.pAO3Q"><b>Constraints:</b></a>
+</dt>
+<dt>
+<b>Properties:</b>
+</dt>
+<dd>
+<br>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Aggregation</b></td><td class="PropertyValue">None</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Association</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Association End</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Class</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Datatype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Default</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Default Value</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Composite</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Derived</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Derived Union</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Ordered</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Read Only</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Static</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Unique</b></td><td class="PropertyValue">true</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower</b></td><td class="PropertyValue">0</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower Value</b></td><td class="PropertyValue">(0)</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Multiplicity</b></td><td class="PropertyValue">*</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">events</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Opposite</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Association</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem::events</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Type</b></td><td class="PropertyValue"><a href="_G5V8.sL6.wE.eO3.l-.w6.i.pAO3Q-content.html">Event</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper</b></td><td class="PropertyValue">*</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper Value</b></td><td class="PropertyValue">(*)</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Private</td>
+</tr>
+</table>
+</dd>
+</dl>
+<p></p>
+<table class="DetailsTable">
+<tr>
+<td class="DetailsTitle" colspan="2"><a name="operationDetail">Operation Details</a></td>
+</tr>
+</table>
+<br>
+<span class="ListItem"><img src="../images/-234550604_icon.png" alt="">&nbsp;<a name="_A2.hJQMG-E.eO.o.r.c.v-.wB0.tFA">createEvent</a></span>
+<pre>Public&nbsp; createEvent()</pre>
+<dl>
+<dd></dd>
+<dt>
+<b>Parameters:</b>
+</dt>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+<dt>
+<b>Returns:</b>
+</dt>
+<dd>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+</dd>
+<dt>
+<a name="operationConstraintsTable_A2.hJQMG-E.eO.o.r.c.v-.wB0.tFA"><b>Constraints:</b></a>
+</dt>
+<dt>
+<b>Raised Exceptions:</b>
+</dt>
+<dt>
+<b>Properties:</b>
+</dt>
+<dd>
+<br>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Body Condition</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Class</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Concurrency</b></td><td class="PropertyValue">Sequential</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Datatype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Interface</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Ordered</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Query</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Static</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Unique</b></td><td class="PropertyValue">true</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">createEvent</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owned Template Signature</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem::createEvent</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Type</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+</dd>
+</dl>
+<hr>
+<br>
+<span class="ListItem"><img src="../images/-234550604_icon.png" alt="">&nbsp;<a name="_NC.q9EMG-E.eO.o.r.c.v-.wB0.tFA">notifyGuests</a></span>
+<pre>Public&nbsp; notifyGuests()</pre>
+<dl>
+<dd></dd>
+<dt>
+<b>Parameters:</b>
+</dt>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+<dt>
+<b>Returns:</b>
+</dt>
+<dd>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+</dd>
+<dt>
+<a name="operationConstraintsTable_NC.q9EMG-E.eO.o.r.c.v-.wB0.tFA"><b>Constraints:</b></a>
+</dt>
+<dt>
+<b>Raised Exceptions:</b>
+</dt>
+<dt>
+<b>Properties:</b>
+</dt>
+<dd>
+<br>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Body Condition</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Class</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Concurrency</b></td><td class="PropertyValue">Sequential</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Datatype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Interface</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Ordered</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Query</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Static</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Unique</b></td><td class="PropertyValue">true</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">notifyGuests</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owned Template Signature</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem::notifyGuests</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Type</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+</dd>
+</dl>
+<hr>
+<br>
+<span class="ListItem"><img src="../images/-234550604_icon.png" alt="">&nbsp;<a name="_T.b.e.n.kL6.wE.eO3.l-.w6.i.pAO3Q">queryDb</a></span>
+<pre>Public&nbsp; queryDb()</pre>
+<dl>
+<dd></dd>
+<dt>
+<b>Parameters:</b>
+</dt>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+<dt>
+<b>Returns:</b>
+</dt>
+<dd>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+</dd>
+<dt>
+<a name="operationConstraintsTable_T.b.e.n.kL6.wE.eO3.l-.w6.i.pAO3Q"><b>Constraints:</b></a>
+</dt>
+<dt>
+<b>Raised Exceptions:</b>
+</dt>
+<dt>
+<b>Properties:</b>
+</dt>
+<dd>
+<br>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Body Condition</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Class</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Concurrency</b></td><td class="PropertyValue">Sequential</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Datatype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Interface</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Ordered</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Query</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Static</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Unique</b></td><td class="PropertyValue">true</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">queryDb</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owned Template Signature</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem::queryDb</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Type</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+</dd>
+</dl>
+<hr>
+<br>
+<span class="ListItem"><img src="../images/-234550604_icon.png" alt="">&nbsp;<a name="_S9.l.cUMG-E.eO.o.r.c.v-.wB0.tFA">removeEvent</a></span>
+<pre>Public&nbsp; removeEvent()</pre>
+<dl>
+<dd></dd>
+<dt>
+<b>Parameters:</b>
+</dt>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+<dt>
+<b>Returns:</b>
+</dt>
+<dd>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+</dd>
+<dt>
+<a name="operationConstraintsTable_S9.l.cUMG-E.eO.o.r.c.v-.wB0.tFA"><b>Constraints:</b></a>
+</dt>
+<dt>
+<b>Raised Exceptions:</b>
+</dt>
+<dt>
+<b>Properties:</b>
+</dt>
+<dd>
+<br>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Body Condition</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Class</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Concurrency</b></td><td class="PropertyValue">Sequential</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Datatype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Interface</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Ordered</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Query</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Static</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Unique</b></td><td class="PropertyValue">true</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">removeEvent</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owned Template Signature</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem::removeEvent</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Type</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+</dd>
+</dl>
+<hr>
+<br>
+<span class="ListItem"><img src="../images/-234550604_icon.png" alt="">&nbsp;<a name="_P.p.cLAMG-E.eO.o.r.c.v-.wB0.tFA">updateEvent</a></span>
+<pre>Public&nbsp; updateEvent()</pre>
+<dl>
+<dd></dd>
+<dt>
+<b>Parameters:</b>
+</dt>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+<dt>
+<b>Returns:</b>
+</dt>
+<dd>
+<dd>
+<table>
+<tbody></tbody>
+</table>
+</dd>
+</dd>
+<dt>
+<a name="operationConstraintsTable_P.p.cLAMG-E.eO.o.r.c.v-.wB0.tFA"><b>Constraints:</b></a>
+</dt>
+<dt>
+<b>Raised Exceptions:</b>
+</dt>
+<dt>
+<b>Properties:</b>
+</dt>
+<dd>
+<br>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Alias</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Body Condition</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Class</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Concurrency</b></td><td class="PropertyValue">Sequential</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Datatype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Interface</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Ordered</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Query</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Static</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Unique</b></td><td class="PropertyValue">true</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Keywords</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Lower</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">updateEvent</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name Expression</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owned Template Signature</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_-GSL.oL6.vE.eO3.l-.w6.i.pAO3Q-content.html">SchedulingSystem</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owning Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">se_proj::SchedulingSystem::updateEvent</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Stereotype</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Template Parameter</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Type</b></td><td class="PropertyValue"></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Upper</b></td><td class="PropertyValue">1</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+</dd>
+</dl>
+<hr>
+<br>
+<table class="NavigationBar">
+<tr>
+<td>
+<table class="NavBarLeft">
+<tr>
+<td class="NavBarMainLink"><a target="_top" href="../index.html">Overview</a></td><td class="NavBarMainLink"><a href="_.w.tXW4.r.a.lE.eO8.yNI.aJEI.s.q.g-top-summary.html">Top</a></td><td class="NavBarMainLink"><a href="_.w.tXW4.r.a.lE.eO8.yNI.aJEI.s.q.g-top-summary.html">Package</a></td><td class="NavBarMainHighlight">Element</td>
+</tr>
+</table>
+</td><td class="NavBarRight">se_proj UML Documentation</td>
+</tr>
+</table>
+<table>
+<tr class="NavBarBookMarks">
+<td class="BookMarkSections"><span class="BookMarkElements">Summary:</span><span class="BookMarkElements"><a href="#attributeSummary" title="Attributes">Attributes</a></span><span class="BookMarkElements"><a href="#operationSummary" title="Operations">Operations</a></span><span class="BookMarkElements"><a href="#specificationsSummary" title="Specifications">Specifications</a></span><span class="BookMarkElements"><a href="#propertiesTable" title="Properties">Properties</a></span></td><td class="BookMarkSections"><span class="BookMarkElements">Detail:</span><span class="BookMarkElements"><a href="#attributeDetail" title="Attributes">Attributes</a></span><span class="BookMarkElements"><a href="#operationDetail" title="Operations">Operations</a></span></td>
+</tr>
+</table>
+</body>
+</html>
